@@ -1,0 +1,24 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/62bac2bf91581a9588401d9a
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"Aditya Pandey",
+    "channel":"Node JS Developer"
+}
+
+###
+DELETE http://localhost:3000/subscribers/62bac2bf91581a9588401d9a
+
+###
+PATCH http://localhost:3000/subscribers/62bac4e40d68eba7c7b823bf
+Content-Type: application/json
+{
+    "name" : "Aditya Pandey"
+}
